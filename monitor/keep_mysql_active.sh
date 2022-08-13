@@ -13,7 +13,7 @@ function keep_mysql_service_active()
 
     echo "[-] MySQL is inactive"
     echo "[-] Restart now"
-    systemctl restart mysql
+    sudo systemctl restart mysql
     echo "[-] Done!"
 }
 
